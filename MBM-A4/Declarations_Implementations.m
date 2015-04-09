@@ -8,13 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
+NSString *getRandomMake(NSArray *);
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSString *getRandomMake(NSArray *);
         
         NSArray *makes = @[@"Honda", @"Ford", @"Nissan", @"Porsche"];
         NSLog(@"Selected a %@", getRandomMake(makes));
-
     }
     return 0;
+}
+
+NSString *getRandomMake(NSArray *makes) {
+    int maximum = (int)[makes count];
+    int randomIndex = arc4random_uniform(maximum);
+    return makes[randomIndex];
 }
