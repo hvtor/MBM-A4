@@ -10,7 +10,7 @@
 
 NSString *getRandomMake(NSArray *);
 
-int main(int argc, const char * argv[]) {
+int main0(int argc, const char * argv[]) {
     @autoreleasepool {
         
         NSArray *makes = @[@"Honda", @"Ford", @"Nissan", @"Porsche"];
