@@ -12,6 +12,7 @@
 		E98D57101AD5D09A00AB9A45 /* Declarations_Implementations.m in Sources */ = {isa = PBXBuildFile; fileRef = E98D570F1AD5D09A00AB9A45 /* Declarations_Implementations.m */; };
 		E98D57121AD5F8AA00AB9A45 /* q3.m in Sources */ = {isa = PBXBuildFile; fileRef = E98D57111AD5F8AA00AB9A45 /* q3.m */; };
 		E98F84981AD6FAB2001FD903 /* StaticLocal.m in Sources */ = {isa = PBXBuildFile; fileRef = E98F84971AD6FAB2001FD903 /* StaticLocal.m */; };
+		E98F849F1AD7084A001FD903 /* CarUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E98F849E1AD7084A001FD903 /* CarUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,8 @@
 		E98D570F1AD5D09A00AB9A45 /* Declarations_Implementations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations_Implementations.m; sourceTree = "<group>"; };
 		E98D57111AD5F8AA00AB9A45 /* q3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = q3.m; sourceTree = "<group>"; };
 		E98F84971AD6FAB2001FD903 /* StaticLocal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StaticLocal.m; path = ../StaticLocal.m; sourceTree = "<group>"; };
+		E98F849D1AD7084A001FD903 /* CarUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CarUtilities.h; path = ../CarUtilities.h; sourceTree = "<group>"; };
+		E98F849E1AD7084A001FD903 /* CarUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CarUtilities.m; path = ../CarUtilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 		E98D57071AD5B2CD00AB9A45 /* MBM-A4 */ = {
 			isa = PBXGroup;
 			children = (
+				E98F849D1AD7084A001FD903 /* CarUtilities.h */,
+				E98F849E1AD7084A001FD903 /* CarUtilities.m */,
 				E98D57081AD5B2CD00AB9A45 /* main.m */,
 				E98F84971AD6FAB2001FD903 /* StaticLocal.m */,
 				E98582231AD6C00B007972F1 /* q4.m */,
@@ -131,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E98F84981AD6FAB2001FD903 /* StaticLocal.m in Sources */,
+				E98F849F1AD7084A001FD903 /* CarUtilities.m in Sources */,
 				E98582241AD6C00B007972F1 /* q4.m in Sources */,
 				E98D57101AD5D09A00AB9A45 /* Declarations_Implementations.m in Sources */,
 				E98D57091AD5B2CD00AB9A45 /* main.m in Sources */,
